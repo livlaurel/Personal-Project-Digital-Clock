@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--meta tag: provides meta data about the html doc-->
+   <!--metadata: info about the data within the doc not shown on webpage-->
+   <!--ensures proper interpretation of the text chars UFT-8-->
+   <!--The purpose of setting the character encoding to UTF-8 is to ensure that the web browser correctly interprets and displays text content, regardless of the language-->
+   <!--UFT-8: unicode transformation format- 8bit represents almost all chars from all langs-->
+  <meta charset="UFT-8">
+  <!--specify the document compatibility mode for internet explorer-->
+  <!--content ="IE=edge" use the latest available rendering engine to display the webpage -->
+  <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+  <!--used to control viewport settings allowwing the webpage to be displayed on any device with different screensizes-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title of webpage-->
+  <title>Digital Clock</title>
+  <!--links style sheet/JS so the style sheet/ JS can be used-->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  
+</head>
+
+<body>
+   <!--container for the clock: contains the elements that display the clock-->
+  <div class = "container">
+   <!--span: its used to display the elements like hours, mins, AM/PM.-->
+   <!-- allows for accurate styling/manipulation of each element-->
+    <span id = "hours">00</span>
+    <span>:</span>
+    <span id = "minutes">00</span>
+    <span>:</span>
+    <span id = "seconds">00</span>
+    <span id = "session">AM</span>
+</body>
+
+</html>

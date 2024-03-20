@@ -1,0 +1,22 @@
+body{
+   /*the space outside the boarder of an element*/
+   margin: 0%;
+   /*the space between the content of an element and its border*/
+   /*since both are 0 theres no space between the elements border*/
+   padding: 0%;
+   /*this is the background color(do whatever you want)*/
+   background-color: #252525;
+ }
+ 
+ .container{
+   /*these are all just style choices(design it however you want!)*/
+   font-family: Gill Sans, sans-serif, monospace;
+   color: #E3E3E3;
+   font-weight: bold;
+   font-size: 75px;
+   
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
